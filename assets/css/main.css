@@ -1,0 +1,70 @@
+/* 메인 페이지 스타일 */
+#visual {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    background-image: url(../images/main/main-visual3.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#visual h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main {
+}
+.main .con {
+    width: 100%;
+}
+.main .con .inner {
+    padding: 120px 0;
+    /* 실제 높이 쓰지 않고 컨텐츠 높이만큼 자동처리  */
+    height: 900px;
+}
+.main .con h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main .con1 {
+    background: #b3e5fc;
+}
+.main .con1 .inner {
+    background: #b2ebf2;
+}
+.main .con1 h2 {
+}
+
+.main .con2 {
+    background: #ffe082;
+}
+.main .con2 .inner {
+    background: #ffca28;
+}
+.main .con2 h2 {
+}
+
+.main .con3 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/main/main-visual4.jpg);
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.main .con4 {
+    background: #ffccbc;
+}
+.main .con4 .inner {
+    background: #ff8a65;
+}
+.main .con4 h2 {
+}

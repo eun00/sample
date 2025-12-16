@@ -1,0 +1,171 @@
+/* 공통 레이아웃 스타일 */
+/* 적응형 - pc, mobile 따로 만들기 - 복잡한사이트 예) 학원 */
+#wrap {
+    width: 100%;
+    min-width: 1600px;
+}
+#header,
+#visual,
+#content,
+#footer {
+    width: 100%;
+}
+.inner {
+    width: 1400px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+/* header */
+#header {
+    background: #fce4ec;
+}
+#header .inner {
+    /* 높이 */
+    height: 120px;
+    background: #f8bbd0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header h1 {
+}
+#header .nav {
+}
+#header .nav .gnb {
+    display: flex;
+    gap: 60px;
+}
+#header .nav .gnb li {
+}
+#header .nav .gnb li a {
+    display: block;
+    padding: 15px 10px;
+    position: relative;
+}
+#header .nav .gnb li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+    /* transform: scaleX(0); */
+    /* transform-origin: 0 0; */
+}
+#header .nav .gnb li:hover a::after {
+    /* transform: scaleX(1); */
+    width: 100%;
+}
+#header .all-menu {
+    cursor: pointer;
+    padding: 5px;
+}
+#header .all-menu i {
+    font-size: 35px;
+}
+
+.site-map {
+    box-sizing: border-box;
+    /* 해상도크기 */
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 100px;
+    z-index: 500;
+    /*  */
+    display: none;
+}
+/* js로 .on 붙이고 떼고 */
+.site-map.on {
+    display: block;
+}
+.site-map h2 {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.site-map .all-close {
+    position: absolute;
+    right: 150px;
+    top: 60px;
+    padding: 10px;
+    cursor: pointer;
+}
+.site-map .all-close i {
+    font-size: 40px;
+    color: #fff;
+}
+
+/* footer */
+#footer {
+    background: #e3f2fd;
+    position: relative;
+}
+#footer::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #999;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+#footer .inner {
+    background: #2196f3;
+    height: 300px;
+}
+
+/* sublayout */
+#subVisual {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subVisual h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: skyblue;
+}
+#subVisual.subBanner1 {
+    background-image: url(../images/common/visual1.jpg);
+}
+#subVisual.subBanner2 {
+    background-image: url(../images/common/visual2.jpg);
+}
+#subVisual.subBanner3 {
+    background-image: url(../images/common/visual3.jpg);
+}
+#subVisual.subBanner4 {
+    background-image: url(../images/common/visual4.jpg);
+}
+#subVisual.subBanner5 {
+    background-image: url(../images/common/visual5.jpg);
+}
+#subVisual.subBanner6 {
+    background-image: url(../images/common/visual1.jpg);
+}
+/* 서브페이지 본문 공통  */
+.page {
+}
+.page .inner {
+    padding: 100px 0;
+}
+/* .page h3.title { */
+/* .page h3.info { */
+.page h3 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}

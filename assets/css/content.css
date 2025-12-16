@@ -1,0 +1,40 @@
+/* 서브 페이지 스타일 */
+/* sub1.html */
+.sub1 {
+}
+.sub1 .con {
+    width: 100%;
+}
+.sub1 .con1 {
+    background: #e0f7fa;
+}
+.sub1 .con1 .inner {
+    /* 높이는 쓰지말자, 컨텐츠 크기에 따라 변경된다 */
+    height: 600px;
+    background: #b2dfdb;
+}
+.sub1 .con2 {
+    background: #bbdefb;
+}
+.sub1 .con2 .inner {
+    height: 1000px;
+    background: #90caf9;
+}
+.sub1 .con2 h3 {
+    text-align: center;
+}
+/* sub2.html */
+.sub2 {
+}
+/* sub3.html */
+.sub3 {
+}
+/* sub4.html */
+.sub4 {
+}
+/* sub5.html */
+.sub5 {
+}
+/* sub6.html */
+.sub6 {
+}
