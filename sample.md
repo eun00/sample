@@ -60,7 +60,7 @@ HTML, CSS, JavaScript를 기반으로 한 **정적 웹사이트**로 구현했�
 ## 🗂️ 폴더 구조
 
 ```bash
-root/
+ezen_project/
 ├─ index.html
 ├─ pages/                # 서브 페이지
 ├─ assets/
