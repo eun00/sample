@@ -33,6 +33,13 @@
     height: 600px;
     background: rgb(184, 230, 248);
 }
+.sub2 .con2 {
+    background: rgb(247, 211, 217);
+}
+.sub2 .con2 .inner {
+    height: 800px;
+    background: rgb(240, 130, 148);
+}
 .sub2 .con1 h3 {
 }
 /* sub3.html */
